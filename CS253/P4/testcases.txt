@@ -1,0 +1,29 @@
+1 . cd existingDirectory should actually change the shell's directory
+Test result: Pass
+2. cd ordinaryFIleName should report an error message as it's not a directory
+Test result: Pass
+3. cd nonExistingDirectory should report an error message
+Test result: Pass
+4. cd .. should navigate into the parent directory
+Test result: Pass
+5. cd / To change into the root directory, making it your working directory, use the command
+Test result: Pass
+6. Verify that EOF (e.g. Ctrl-D) exits normally
+Test result: Pass
+7. Verify that exit exits normally
+Test result: Pass
+8. Verify that smash will not crash in response to an extremely long command
+Test result: Pass
+9. Verify that history command prints the last 10 commands in serial order.
+Test result: Pass
+10. Verify that the history command prints the exit status to the console in the specified format.
+Test result: Pass
+11. Verify that the external commands arguments are all listed in the serial order with a certain format, without actually executing anything.
+Test result: Pass
+12. Verify that cd /home successfully changes to home directory and prints the source to the console.
+Test result: Pass
+13. Verify that the destination is printed to the console upon successfully changing the directory.
+Test result: Pass
+
+
+

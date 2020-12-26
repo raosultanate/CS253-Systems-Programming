@@ -1,0 +1,23 @@
+[280]  --- Start grading P4 with ./testSmashOne ----- Score=100
+[289]  Grading make all Score=100
+[303]  Grading CFLAGS and -Wall Score=100
+[311]  Grading exit command Score=100
+[314]  ERROR:  smash did not exit normally Score=100
+[319]  Grading exit command Score=90
+[323]  ERROR:  smash did not exit normally Score=90
+[328]  Grading cd non-existing-directory Score=80
+[330]  ERROR:  Could not grep No such in /tmp/danielrao1898 Score=75
+[335]  Grading cd existing-directory Score=75
+[342]  Grading basic history functionality using /Users/danielrao/Desktop/CS253/TestData/test2.in Score=75
+[344]  ERROR:  Could not grep 1.*ls in /tmp/danielrao1898 Score=70
+[345]  ERROR:  Could not grep 2.*cd *foo in /tmp/danielrao1898 Score=65
+[346]  Grading basic history includes exit status for failed cd command Score=65
+[347]  ERROR:  Could not grep \[.*1.*\] *cd in /tmp/danielrao1898 Score=60
+[348]  Grading history of history command Score=60
+[349]  ERROR:  Could not grep 4.*history in /tmp/danielrao1898 Score=55
+[352]  Grading external command:  foo arg1 arg2 arg3 Score=55
+[354]   ERROR:  Substring 0.*foo missing in string, ./testSmashOne: Score=50
+[355]   ERROR:  Substring 1.*arg1 missing in string, ./testSmashOne: Score=45
+[356]   ERROR:  Substring 2.*arg2 missing in string, ./testSmashOne: Score=40
+[357]   ERROR:  Substring 3.*arg3 missing in string, ./testSmashOne: Score=35
+[371]  FinalScore=35  Score=35
